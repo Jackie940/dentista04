@@ -1,0 +1,124 @@
+.wsg-blog_01{
+	padding:60px 0;
+}
+.wsg-blog_01 article{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+.wsg-blog_01 .wsg-06_item{
+	margin-bottom: 20px;
+}
+.wsg-blog_01 input{
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    color: #425153;
+    padding: 10px 50px 10px 10px;
+    width: calc(100% - 62px);
+    transition: all linear .2s;
+}
+.wsg-blog_01 input:focus{
+    border-color: #26ade4;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.wsg-blog_01 form{
+	position: relative;
+}
+.wsg-blog_01 form button{
+	position: absolute;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: #fff;
+    background: #26ade4;
+    border: 1px solid #26ade4;
+	right: 6px;
+    top: 5px;
+    transition: all linear .3s;
+}
+.wsg-blog_01 form button:hover{
+	background-color:#a3d186;
+	border-color: #a3d186;
+}
+.wsg-blog_01 aside ul li{
+	border-bottom: 2px dotted #cecece;
+	margin-bottom:15px;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	font-family: Poppins;
+    font-size: 14px;;
+    font-weight: 400;
+}
+.wsg-blog_01 aside ul li:before{
+	color: #26ade4;
+	font-size: 13px;
+	font-weight: 900;
+	margin-right: 15px;
+	transition: all linear .2s;
+}
+.wsg-blog_01 aside ul li:hover::before,.wsg-blog_01 aside ul li:hover a{
+	transform: translateX(10px);
+}
+.wsg-blog_01 aside ul li:hover a{
+	color: #26ade4;
+}
+.wsg-blog_01 aside ul li a{
+	display: block;
+}
+.wsg-blog_01 aside div{
+	margin-bottom: 0px;
+}
+.wsg-blog_01 aside h3{
+	font-size: 18px;
+    color: #282b33;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.wsg-blog_01 .wsg-posts-popular .wsg-flex{
+	margin: 0px;
+	padding: 0 10px;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+	align-items: center;
+}
+.wsg-blog_01 .wsg-posts-popular figure{
+	width: 166px;
+	height: auto;
+	margin-right: 20px;
+}
+.wsg-blog_01 .wsg-posts-popular figure img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover; 
+	border-radius: 4px;
+}
+.wsg-blog_01 .wsg-posts-popular h4{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	transition: all linear .2s;
+}
+.wsg-blog_01 .wsg-posts-popular h4:hover{
+	color: #a3d186;
+}
+.wsg-blog_01 .wsg-posts-popular p a:hover{
+	color: #26ade4;
+}
+.wsg-paginacao ul li{
+	margin-right: 10px;
+}
+
+.wsg-paginacao ul li a{
+	display: inline-block;
+	font-size: 16px;
+	padding: 6px 12px;
+	color: #fff;
+	background-color: #a3d186;
+	border-radius: 3px;
+	transition: all linear .2s;
+}
+.wsg-paginacao ul li a:hover{
+	background-color: #26ade4;
+	transform: translateY(-6px);
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,.2);
+}

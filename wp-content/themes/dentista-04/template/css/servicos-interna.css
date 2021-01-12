@@ -1,0 +1,55 @@
+.wsg-servicos-interna_01{
+	padding: 60px 0;
+}
+.wsg-servicos-interna_01 figure{
+	width: 100%;
+	height: 450px;
+}
+.wsg-servicos-interna_01 figure img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-shadow: 0px 12px 10px -5px rgba(0,0,0,.2);
+}
+
+.wsg-servicos-interna_01 h3{
+	font-size: 19px;
+	font-weight: 600;
+	margin: 20px 0;
+}
+.wsg-servicos-interna_01 p{
+	margin-bottom: 20px;
+}
+
+.wsg-servicos-interna_01 h2{
+	font-size: 23px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+.wsg-servicos-interna_01 ul li{
+	border-bottom: 2px dotted #cecece;
+	margin-bottom:15px;
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	font-family: Poppins;
+    font-size: 14px;;
+    font-weight: 400;
+}
+.wsg-servicos-interna_01 ul li:before{
+	color: #26ade4;
+	font-size: 13px;
+	font-weight: 900;
+	margin-right: 15px;
+	transition: all linear .2s;
+}
+.wsg-servicos-interna_01 ul li:hover::before,.wsg-servicos-interna_01 ul li:hover a{
+	transform: translateX(10px);
+}
+.wsg-servicos-interna_01 ul li:hover a{
+	color: #26ade4;
+}
+.wsg-servicos-interna_01 ul li a{
+	display: block;
+}

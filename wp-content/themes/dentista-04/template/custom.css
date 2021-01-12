@@ -1,0 +1,124 @@
+*::-moz-selection{
+	background: #26ade4;
+	color: #fff;
+}
+
+::selection {
+	background: #26ade4;
+	color: #fff;
+}
+
+/* Cor primária */
+
+.wsg-header_top .wsg-menu_principal ul li:hover,.wsg-header_bottom .wsg-container .wsg-flex .wsg-box_4 span,
+a:hover,.wsg-link_simples,.wsg-03_carousel-item h2:hover,.wsg-06_item h2 a:hover,.wsg-servicos-interna_01 ul li:before,
+.wsg-servicos-interna_01 ul li:hover a,.wsg-blog_01 aside ul li:before,.wsg-blog_01 aside' ul li:hover a,
+.wsg-blog_01 .wsg-posts-popular p a:hover,.wsg-contato-01 span,.wsg-contato-01 p a:hover{
+	color: #26ade4;
+}
+
+.wsg-titulo_1:after,.wsg-01 h4:after,.wsg-05_carousel-item:hover figure img,.wsg-cta,
+.wsg-breadcrumbs,.wsg-tabs_contents ul li:before,.wsg-blog_01 form button,.wsg-contato-01 h4:after,
+.wsg-btn_menu.btn-fechar hr{
+	background-color: #26ade4;
+}
+
+.wsg-header_top,.wsg-01 .wsg-flex .wsg-box_4:hover figure,.wsg-link_simples:hover::after,
+.wsg-blog_01 form button,.wsg-blog_01 input:focus,.wsg-contato-02 form input:focus,.wsg-contato-02 form textarea:focus{
+	border-color: #26ade4;
+}
+
+/* Cor secundária */
+.wsg-cta ul li a:hover,.wsg-footer_top p a:hover,.wsg-breadcrumbs p a:hover,
+.wsg-cta-paginas ul li a:hover,.wsg-blog_01 .wsg-posts-popular h4:hover{
+	color: #a3d186;
+}
+.wsg-blog_01 form button:hover,.wsg-btn_menu hr{
+	background-color: #a3d186;
+}
+.wsg-empresa-01 .wsg-tabs ul.wsg-tabs_btns .wsg-tabs_btn.active,.wsg-blog_01 form button:hover{
+	border-color: #a3d186;
+}
+
+/* Cor geral dos textos */
+body{
+	color: #3b3b3f;
+}
+
+/* Cor geral dos titulos */
+h1,h2,h3,h4,h5,h6{
+	color: #282b33;
+}
+
+/* Cor do fundo do header*/
+.wsg-header_top{
+	background-color: #fff;
+}
+.wsg-header_bottom{
+	background-color: #f5f7fa;
+}
+/* Cor do texto do botão padrão */
+.wsg-btn-1{
+	color: #fff;
+}
+.wsg-btn-1:before{
+	background-color: #3b3b3f;
+}
+.wsg-btn-2{
+	color: #fff;
+}
+
+/* Cor de fundo do botão padrão */
+.wsg-btn-1{
+	background-color: #26ade4;
+}
+.wsg-btn-2{
+	background-color: #a3d186;
+}
+
+/* Cor do fundo do botão padrão ao passar o mouse */
+.wsg-btn-1:before{
+	background-color:#a3d186;
+}
+.wsg-btn-2:before{
+	background-color: #3b3b3f;
+}
+
+/* Cor de fundo da barra de contatos dos Cabeçalho */
+
+/*Cor das midias sociais*/
+ul.wsg-midias-sociais li a{
+	color:  #a3d186;
+}
+/*Cor de fundo midias sociais*/
+ul.wsg-midias-sociais li a{
+	background-color:  #fff;
+}
+/*Cor das midias sociais ao passar o mouse*/
+ul.wsg-midias-sociais li a{
+	color:  #fff;
+}
+/*Cor de fundo das midias sociais ao passar o mouse*/
+ul.wsg-midias-sociais li a:hover{
+	background-color:  #a3d186;
+}
+
+/* Cor dos titulos do banner */
+.wsg-banner_conteudo h2{
+	color: #fff;
+}
+
+/* Cor dos textos do banner */
+.wsg-banner_conteudo h2{
+	color: #fff;
+}
+
+
+/* Cor de fundo do rodapé */
+.wsg-footer_top{
+	background-color: #f5f7fa;
+}
+
+.wsg-footer_bottom{
+	background-color: #a3d186;
+}

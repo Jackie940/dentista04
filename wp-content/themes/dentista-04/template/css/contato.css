@@ -1,0 +1,79 @@
+.wsg-contato-01{
+	padding: 50px 0;
+} 
+
+.wsg-contato-01 span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	border:1px solid;
+	border-color: #cecece;
+	color: #26ade4;
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.wsg-contato-01 h4{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+.wsg-contato-01 h4:after{
+	display: block;
+	content: '';
+	height: 2px;
+	width: 30px;
+	background-color: #26ade4;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+.wsg-contato-01 p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.wsg-contato-01 p a:hover{
+	color: #26ade4;
+}
+.wsg-contato-02{
+	padding: 60px 0;
+}
+.wsg-contato-02 h2{
+	font-size: 24px;
+	font-weight: 600;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 20px;
+}
+.wsg-contato-02 form h5{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+.wsg-contato-02 form input,.wsg-contato-02 form textarea{
+	border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    color: #425153;
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 30px;
+    transition: all linear .3s;
+}
+.wsg-contato-02 form textarea{
+	height: 150px
+}
+.wsg-contato-02 form input:focus,.wsg-contato-02 form textarea:focus{
+    border-color: #26ade4;
+}
+.wsg-contato-02 form button{
+	border: none;
+}
+.wsg-contato-02 .wsg-mapa iframe{
+	display: block;
+	width: 100%;
+	height: 540px;
+    box-shadow: 0 4px 12px 4px rgba(0,0,0,.2);
+    border-radius: 4px;
+}

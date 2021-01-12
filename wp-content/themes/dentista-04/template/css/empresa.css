@@ -1,0 +1,56 @@
+.wsg-empresa-01{
+	padding: 60px 0;
+}
+.wsg-empresa-01 .wsg-tabs ul.wsg-tabs_btns{
+	border-bottom: 1px solid #d8d8d9;
+	border-width: 100%;
+}
+.wsg-empresa-01 .wsg-tabs ul.wsg-tabs_btns li a.wsg-tabs_btn{
+	display: inline-block;
+	padding: 20px 0;
+	font-size: 14px;
+	color: #666666;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+.wsg-empresa-01 .wsg-tabs ul.wsg-tabs_btns li{
+	margin-right: 20px;
+}
+.wsg-empresa-01 .wsg-tabs ul.wsg-tabs_btns .wsg-tabs_btn.active{
+	border-bottom: 2px solid #a3d186;
+}
+.wsg-empresa-01 .wsg-tabs_contents p,.wsg-tabs_contents ul li{
+	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+.wsg-empresa-01 .wsg-tabs_contents p{
+	margin: 25px 0;
+}
+
+.wsg-tabs_contents ul li{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+.wsg-tabs_contents ul li:before{
+	content: '';
+	display: block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #26ade4;
+	margin-right: 15px;
+}
+
+.wsg-empresa-01 figure{
+	width: 100%;
+	height: auto;
+}
+.wsg-empresa-01 figure img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	box-shadow: 0 4px 12px 4px rgba(0,0,0,.2);
+}
